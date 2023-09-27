@@ -8,7 +8,7 @@ public class ThreadUnsync {
 
         Thread t1 = new Thread(() -> {
 
-            for (int i = 1; i <= 10000; i++) {
+            for (int i = 1; i <= 20000; i++) {
                 a.finalCount();
             }
         });
